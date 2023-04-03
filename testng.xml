@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/attractor-school/Winter2022TAF">
+        <classes>
+            <class name="annotations.DemoClass">
+                <methods>
+                    <include name="testSum"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                </methods>
+            </class>
+            <class name="annotations.SampleTest">
+                <methods>
+                    <include name="demoTest1"/>
+                    <include name="demoTest2"/>
+                </methods>
+            </class>
+            <class name="eShopTest.Function1">
+                <methods>
+                    <include name="test4"/>
+                </methods>
+            </class>
+            <class name="eShopTest.Function2">
+                <methods>
+                    <include name="test5"/>
+                    <include name="test51"/>
+                </methods>
+            </class>
+            <class name="eShopTest.Function3">
+                <methods>
+                    <include name="test6"/>
+                    <include name="test61"/>
+                </methods>
+            </class>
+            <class name="practice03.TestNGDemo">
+                <methods>
+                    <include name="createNewUserTest"/>
+                    <include name="loginTest"/>
+                    <include name="testLoginFun"/>
+                </methods>
+            </class>
+            <class name="practices.Practice1Test">
+                <methods>
+                    <include name="addDoubleChar"/>
+                    <include name="addDoibleChar2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
